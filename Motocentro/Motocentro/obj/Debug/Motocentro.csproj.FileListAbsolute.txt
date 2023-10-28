@@ -1,0 +1,11 @@
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\bin\Debug\Motocentro.exe.config
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\bin\Debug\Motocentro.exe
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\bin\Debug\Motocentro.pdb
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.csproj.AssemblyReference.cache
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.csproj.SuggestedBindingRedirects.cache
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.Form1.resources
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.Properties.Resources.resources
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.csproj.GenerateResource.cache
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.csproj.CoreCompileInputs.cache
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.exe
+C:\Users\Hapi\Desktop\Motocentro\Motocentro\Motocentro\obj\Debug\Motocentro.pdb
