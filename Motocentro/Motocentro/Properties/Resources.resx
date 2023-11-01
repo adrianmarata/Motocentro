@@ -118,13 +118,16 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="LOGO RESIZED" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LOGO RESIZED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO RESIZED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="LOGO" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="LOGO RESIZED1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LOGO RESIZED" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\LOGO RESIZED.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LOGO RESIZED2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LOGO RESIZED1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

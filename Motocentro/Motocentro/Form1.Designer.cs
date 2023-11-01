@@ -28,21 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.MainPanel = new System.Windows.Forms.FlowLayoutPanel();
             this.panelLogo = new System.Windows.Forms.Panel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelButtons = new System.Windows.Forms.Panel();
             this.buttonReports = new System.Windows.Forms.Button();
             this.buttonLogs = new System.Windows.Forms.Button();
             this.buttonNotify = new System.Windows.Forms.Button();
             this.buttonProducts = new System.Windows.Forms.Button();
             this.buttonAccounts = new System.Windows.Forms.Button();
-            this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
+            this.panelContents = new System.Windows.Forms.Panel();
+            this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.MainPanel.SuspendLayout();
             this.panelLogo.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panelButtons.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).BeginInit();
             this.SuspendLayout();
             // 
             // MainPanel
@@ -59,24 +58,13 @@
             // 
             // panelLogo
             // 
-            this.panelLogo.Controls.Add(this.pictureBox1);
+            this.panelLogo.Controls.Add(this.pictureBoxLogo);
             this.panelLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.panelLogo.Location = new System.Drawing.Point(4, 4);
             this.panelLogo.Margin = new System.Windows.Forms.Padding(4);
             this.panelLogo.Name = "panelLogo";
             this.panelLogo.Size = new System.Drawing.Size(315, 176);
             this.panelLogo.TabIndex = 0;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(315, 176);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // panelButtons
             // 
@@ -147,6 +135,7 @@
             this.buttonProducts.TabIndex = 1;
             this.buttonProducts.Text = "Products";
             this.buttonProducts.UseVisualStyleBackColor = false;
+            this.buttonProducts.Click += new System.EventHandler(this.buttonProducts_Click);
             // 
             // buttonAccounts
             // 
@@ -161,16 +150,26 @@
             this.buttonAccounts.TabIndex = 0;
             this.buttonAccounts.Text = "Accounts";
             this.buttonAccounts.UseVisualStyleBackColor = false;
+            this.buttonAccounts.Click += new System.EventHandler(this.buttonAccounts_Click);
             // 
-            // flowLayoutPanel2
+            // panelContents
             // 
-            this.flowLayoutPanel2.BackColor = System.Drawing.Color.Black;
-            this.flowLayoutPanel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(319, 0);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(4);
-            this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(1366, 64);
-            this.flowLayoutPanel2.TabIndex = 1;
+            this.panelContents.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.panelContents.Location = new System.Drawing.Point(319, 0);
+            this.panelContents.Name = "panelContents";
+            this.panelContents.Size = new System.Drawing.Size(1366, 838);
+            this.panelContents.TabIndex = 1;
+            // 
+            // pictureBoxLogo
+            // 
+            this.pictureBoxLogo.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.pictureBoxLogo.Image = global::Motocentro.Properties.Resources.LOGO;
+            this.pictureBoxLogo.Location = new System.Drawing.Point(0, 0);
+            this.pictureBoxLogo.Name = "pictureBoxLogo";
+            this.pictureBoxLogo.Size = new System.Drawing.Size(315, 176);
+            this.pictureBoxLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBoxLogo.TabIndex = 0;
+            this.pictureBoxLogo.TabStop = false;
             // 
             // Form1
             // 
@@ -178,15 +177,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
             this.ClientSize = new System.Drawing.Size(1685, 838);
-            this.Controls.Add(this.flowLayoutPanel2);
+            this.Controls.Add(this.panelContents);
             this.Controls.Add(this.MainPanel);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "Motocentro";
             this.MainPanel.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panelButtons.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -195,14 +194,14 @@
 
         private System.Windows.Forms.FlowLayoutPanel MainPanel;
         private System.Windows.Forms.Panel panelLogo;
-        private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.Panel panelButtons;
         private System.Windows.Forms.Button buttonAccounts;
         private System.Windows.Forms.Button buttonReports;
         private System.Windows.Forms.Button buttonLogs;
         private System.Windows.Forms.Button buttonNotify;
         private System.Windows.Forms.Button buttonProducts;
-        private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.PictureBox pictureBoxLogo;
+        private System.Windows.Forms.Panel panelContents;
     }
 }
 
